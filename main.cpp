@@ -1,12 +1,11 @@
 #include <iostream>
-
-
 #include "funcs.h"
 #include "coord3d.h"
 
 int main()
 {
   //============================================ Part A
+
   std::cout << "Part A" << std::endl;
   Coord3D pointP = {10, 20, 30};
   double x = length(&pointP);
@@ -38,7 +37,15 @@ int main()
   move(&pos, &vel, 2.0); // object pos gets changed
   std::cout << "The new coordinate is: " << std::endl;
   std::cout << "{" <<pos.x << " " << pos.y << " " << pos.z << "}" << std::endl;
-  //============================================ Part D
   
+  //============================================ Part E
+  std::cout << "\nPart C" << std::endl;
+  std::cout << "Creatinging: new Coord3D..." << std::endl;
+  Coord3D *ppos = createCoord3D(3.0, 4.0, 5.0);
+  std::cout << "The values of the newly created array is: {" << ppos->x << ", " << ppos->y << ", " << ppos->z << "}" << std::endl;
+  deleteCoord3D(ppos);
+
   return 0;
 }
+
+
