@@ -8,16 +8,6 @@ this file contains all the tests for each set of functions other than described 
 
 */
 
-#include <iostream>
-
-int main()
-{
-
-  return 0;
-}
-
-
-
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
 #include "doctest.h"
 #include "funcs.h"

@@ -9,16 +9,6 @@ this file is used to run all the functions to ensure they work properly
 */
 
 #include <iostream>
-
-int main()
-{
-
-  return 0;
-}
-
-
-
-#include <iostream>
 #include "funcs.h"
 #include "coord3d.h"
 
@@ -59,7 +49,7 @@ int main()
   std::cout << "{" <<pos.x << " " << pos.y << " " << pos.z << "}" << std::endl;
   
   //============================================ Part E
-  std::cout << "\nPart C" << std::endl;
+  std::cout << "\nPart E" << std::endl;
   std::cout << "Creatinging: new Coord3D..." << std::endl;
   Coord3D *ppos = createCoord3D(3.0, 4.0, 5.0);
   std::cout << "The values of the newly created array is: {" << ppos->x << ", " << ppos->y << ", " << ppos->z << "}" << std::endl;
