@@ -1,3 +1,23 @@
+/*
+Name: Wei Lin Li
+Course: CSCI-135
+Instructor: Tong Yi and Mike Zamansky
+Assignment: Lab 9 - main.cpp
+
+this file is used to run all the functions to ensure they work properly
+
+*/
+
+#include <iostream>
+
+int main()
+{
+
+  return 0;
+}
+
+
+
 #include <iostream>
 #include "funcs.h"
 #include "coord3d.h"
